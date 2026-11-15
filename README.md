@@ -1,3 +1,18 @@
+> **Examen final – Pruebas y Calidad de Software (Universidad ECCI Cali, 2026-II)**
+> Integrantes: Juan Esteban Hernández Mazo · Andrés Felipe Viveros · Andrés Felipe Giraldo
+>
+> Este fork incluye una suite de pruebas E2E con Playwright. Instrucciones completas en
+> [`playwright-tests/README.md`](playwright-tests/README.md). Resumen:
+>
+> ```bash
+> git clone https://github.com/Giral2/sample-app-web.git
+> cd sample-app-web
+> npm install
+> npx playwright install chromium
+> npm run test:e2e          # ejecuta las pruebas (levanta la app sola)
+> npm run test:e2e:report   # abre el reporte HTML
+> ```
+
 # What is this codebase?
 This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers
 
